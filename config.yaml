@@ -1,0 +1,37 @@
+telegram:
+  use_html: true
+
+territories:
+  moscow:
+    name: "Москва"
+    thread_id: 3
+    search_radius_km: 50
+    cities: ["москва"]
+    keywords:
+      vk: "событие москва"
+      google: "события в москве"
+    metro_available: true
+  
+  yaroslavl:
+    name: "Ярославль"
+    thread_id: 4
+    search_radius_km: 50
+    cities: ["ярославль"]
+    keywords:
+      vk: "событие ярославль"
+      google: "события ярославль"
+    metro_available: false
+
+collections:
+  free_today:
+    name: "🆓 Бесплатные события на сегодня"
+    description: "Бесплатные события где люди могут общаться"
+    is_free: true
+    max_count: 50
+  
+  paid_today:
+    name: "💳 События до 1000₽ на сегодня"
+    description: "Платные события до 1000 рублей"
+    is_free: false
+    max_price: 1000
+    max_count: 30

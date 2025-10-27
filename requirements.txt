@@ -1,0 +1,26 @@
+# Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# Telegram
+python-telegram-bot==20.7
+
+# Configuration
+pyyaml==5.3.1
+
+# Async
+aiohttp==3.9.1
+
+# Utilities
+python-dotenv==1.0.0
+pytz==2024.1
+tqdm==4.66.2
+
+# Content Moderation
+better-profanity==0.7.0
+
+# Validation
+pydantic==1.10.13
+
+# String similarity (вместо Levenshtein)
+rapidfuzz==3.6.1
